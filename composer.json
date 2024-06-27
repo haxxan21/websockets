@@ -13,12 +13,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Hassan\\Websockets\\": "src/"
+            "Codespace\\Websockets\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hassan\\Websockets\\Test\\": "tests"
+            "Codespace\\Websockets\\Test\\": "tests"
         }
     },
     "scripts": {
