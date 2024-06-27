@@ -122,11 +122,6 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
             'Illuminate\\Bus\\' => 15,
             'Illuminate\\Broadcasting\\' => 24,
         ),
-        'H' => 
-        array (
-            'Hassan\\Websockets\\Test\\' => 23,
-            'Hassan\\Websockets\\' => 18,
-        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -150,6 +145,8 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         ),
         'C' => 
         array (
+            'Codespace\\Websockets\\Test\\' => 26,
+            'Codespace\\Websockets\\' => 21,
             'Clue\\React\\SQLite\\' => 18,
             'Clue\\React\\Redis\\' => 17,
             'Clue\\React\\NDJson\\' => 18,
@@ -419,14 +416,6 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         array (
             0 => __DIR__ . '/..' . '/illuminate/broadcasting',
         ),
-        'Hassan\\Websockets\\Test\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
-        'Hassan\\Websockets\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -462,6 +451,14 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Codespace\\Websockets\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Codespace\\Websockets\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Clue\\React\\SQLite\\' => 
         array (
