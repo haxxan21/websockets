@@ -1,0 +1,71 @@
+{
+    "name": "codespace/websockets",
+    "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hassan Malik",
+            "email": "malikhassan053@beyondco.de",
+            "homepage": "https://github.com/haxxan21",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hassan\\Websockets\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hassan\\Websockets\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0|^8.1|^8.2",
+        "cboden/ratchet": "^0.4.4",
+        "clue/block-react": "^1.5",
+        "clue/reactphp-sqlite": "^1.6",
+        "clue/redis-react": "^2.7",
+        "doctrine/dbal": "^4.0",
+        "evenement/evenement": "^3.0",
+        "facade/ignition-contracts": "^1.0",
+        "guzzlehttp/psr7": "^2.6",
+        "illuminate/broadcasting": "^11.13",
+        "illuminate/console": "^11.13",
+        "illuminate/queue": "^11.13",
+        "illuminate/support": "^11.13",
+        "pusher/pusher-php-server": "^7.2",
+        "react/mysql": "^0.6.0",
+        "react/promise": "^3.2",
+        "symfony/http-kernel": "^7.1",
+        "symfony/psr-http-message-bridge": "^7.1"
+    },
+    "suggest": {
+        "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown.",
+        "doctrine/dbal": "Required to run database migrations (^2.9|^3.0)."
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BeyondCode\\LaravelWebSockets\\WebSocketsServiceProvider"
+            ],
+            "aliases": {
+                "WebSocketRouter": "BeyondCode\\LaravelWebSockets\\Facades\\WebSocketRouter"
+            }
+        }
+    },
+    "require-dev": {
+        "laravel/legacy-factories": "^1.4",
+        "phpunit/phpunit": "^11.2",
+        "ratchet/pawl": "^0.4.1"
+    }
+}
