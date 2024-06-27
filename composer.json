@@ -35,14 +35,7 @@
         "clue/block-react": "^1.5",
         "clue/reactphp-sqlite": "^1.6",
         "clue/redis-react": "^2.7",
-        "doctrine/dbal": "^4.0",
         "evenement/evenement": "^3.0",
-        "facade/ignition-contracts": "^1.0",
-        "guzzlehttp/psr7": "^2.6",
-        "illuminate/broadcasting": "^11.13",
-        "illuminate/console": "^11.13",
-        "illuminate/queue": "^11.13",
-        "illuminate/support": "^11.13",
         "pusher/pusher-php-server": "^7.2",
         "react/mysql": "^0.6.0",
         "react/promise": "^3.2"
@@ -63,7 +56,6 @@
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.4",
-        "phpunit/phpunit": "^11.2",
         "ratchet/pawl": "^0.4.1"
     }
 }
