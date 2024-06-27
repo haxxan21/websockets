@@ -45,9 +45,7 @@
         "illuminate/support": "^11.13",
         "pusher/pusher-php-server": "^7.2",
         "react/mysql": "^0.6.0",
-        "react/promise": "^3.2",
-        "symfony/http-kernel": "^7.1",
-        "symfony/psr-http-message-bridge": "^7.1"
+        "react/promise": "^3.2"
     },
     "suggest": {
         "ext-pcntl": "Running the server needs pcntl to listen to command signals and soft-shutdown.",
