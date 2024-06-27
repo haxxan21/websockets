@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\API\TriggerEvent;
-use Codespace\Websockets\Server\Exceptions\InvalidSignature;
+use Teamspk\Websockets\API\TriggerEvent;
+use Teamspk\Websockets\Server\Exceptions\InvalidSignature;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\JsonResponse;
 use Pusher\Pusher;

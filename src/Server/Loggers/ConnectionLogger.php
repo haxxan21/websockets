@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Server\Loggers;
+namespace Teamspk\Websockets\Server\Loggers;
 
 use Ratchet\ConnectionInterface;
 

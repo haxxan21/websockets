@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test\Handlers;
+namespace Teamspk\Websockets\Test\Handlers;
 
 use Exception;
 use Ratchet\ConnectionInterface;

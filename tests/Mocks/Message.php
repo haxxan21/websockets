@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test\Mocks;
+namespace Teamspk\Websockets\Test\Mocks;
 
 use Ratchet\RFC6455\Messaging\Message as BaseMessage;
 

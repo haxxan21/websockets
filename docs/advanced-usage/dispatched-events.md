@@ -13,12 +13,12 @@ For example, you can listen for events like when a new connection establishes or
 
 Below you will find a list of dispatched events:
 
-- `Codespace\Websockets\Events\NewConnection` - when a connection successfully establishes on the server
-- `Codespace\Websockets\Events\ConnectionClosed` - when a connection leaves the server
-- `Codespace\Websockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
-- `Codespace\Websockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
-- `Codespace\Websockets\Events\WebSocketMessageReceived` - when the server receives a message
-- `Codespace\Websockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
+- `Teamspk\Websockets\Events\NewConnection` - when a connection successfully establishes on the server
+- `Teamspk\Websockets\Events\ConnectionClosed` - when a connection leaves the server
+- `Teamspk\Websockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
+- `Teamspk\Websockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
+- `Teamspk\Websockets\Events\WebSocketMessageReceived` - when the server receives a message
+- `Teamspk\Websockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
 
 ## Queued Listeners
 
@@ -31,7 +31,7 @@ If set up, you can use the `async-redis` queue driver in your listeners:
 
 namespace App\Listeners;
 
-use Codespace\Websockets\Events\NewConnection;
+use Teamspk\Websockets\Events\NewConnection;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class HandleNewConnections implements ShouldQueue
@@ -75,7 +75,7 @@ The `EventServiceProvider` might look like this, registering the listeners that 
  * @var array
  */
 protected $listen = [
-    \Codespace\Websockets\Events\NewConnection::class => [
+    \Teamspk\Websockets\Events\NewConnection::class => [
         App\Listeners\HandleNewConnections::class,
     ],
 ];

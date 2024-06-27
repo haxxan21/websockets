@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Apps;
+namespace Teamspk\Websockets\Apps;
 
-use Codespace\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Contracts\AppManager;
 use React\Promise\PromiseInterface;
 
 use function React\Promise\resolve as resolvePromise;
@@ -93,7 +93,7 @@ class ConfigAppManager implements AppManager
      * Map the app into an App instance.
      *
      * @param  array|null  $app
-     * @return \Codespace\Websockets\Apps\App|null
+     * @return \Teamspk\Websockets\Apps\App|null
      */
     protected function convertIntoApp(?array $appAttributes): ?App
     {

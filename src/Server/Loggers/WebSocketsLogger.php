@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Server\Loggers;
+namespace Teamspk\Websockets\Server\Loggers;
 
-use Codespace\Websockets\Server\QueryParameters;
+use Teamspk\Websockets\Server\QueryParameters;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;

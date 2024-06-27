@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\API;
+namespace Teamspk\Websockets\API;
 
-use Codespace\Websockets\DashboardLogger;
-use Codespace\Websockets\Facades\StatisticsCollector;
+use Teamspk\Websockets\DashboardLogger;
+use Teamspk\Websockets\Facades\StatisticsCollector;
 use Illuminate\Http\Request;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;

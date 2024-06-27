@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Controllers;
+namespace Teamspk\Websockets\Dashboard\Http\Controllers;
 
-use Codespace\Websockets\Concerns\PushesToPusher;
-use Codespace\Websockets\Rules\AppId;
+use Teamspk\Websockets\Concerns\PushesToPusher;
+use Teamspk\Websockets\Rules\AppId;
 use Illuminate\Http\Request;
 use Throwable;
 

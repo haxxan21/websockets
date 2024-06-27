@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;

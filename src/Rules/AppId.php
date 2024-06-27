@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Rules;
+namespace Teamspk\Websockets\Rules;
 
-use Codespace\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Contracts\AppManager;
 use Illuminate\Contracts\Validation\Rule;
 use React\EventLoop\Factory;
 

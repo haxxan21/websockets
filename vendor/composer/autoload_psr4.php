@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'voku\\' => array($vendorDir . '/voku/portable-ascii/src/voku'),
     'Termwind\\' => array($vendorDir . '/nunomaduro/termwind/src'),
+    'Teamspk\\Websockets\\Test\\' => array($baseDir . '/tests'),
+    'Teamspk\\Websockets\\' => array($baseDir . '/src'),
     'Symfony\\Polyfill\\Php83\\' => array($vendorDir . '/symfony/polyfill-php83'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Intl\\Normalizer\\' => array($vendorDir . '/symfony/polyfill-intl-normalizer'),
@@ -78,8 +80,6 @@ return array(
     'Doctrine\\Deprecations\\' => array($vendorDir . '/doctrine/deprecations/lib/Doctrine/Deprecations'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/src'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
-    'Codespace\\Websockets\\Test\\' => array($baseDir . '/tests'),
-    'Codespace\\Websockets\\' => array($baseDir . '/src'),
     'Clue\\React\\SQLite\\' => array($vendorDir . '/clue/reactphp-sqlite/src'),
     'Clue\\React\\Redis\\' => array($vendorDir . '/clue/redis-react/src'),
     'Clue\\React\\NDJson\\' => array($vendorDir . '/clue/ndjson-react/src'),

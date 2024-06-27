@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Server\Exceptions;
+namespace Teamspk\Websockets\Server\Exceptions;
 
 class OriginNotAllowed extends WebSocketException
 {

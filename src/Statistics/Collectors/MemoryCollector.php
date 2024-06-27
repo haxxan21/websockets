@@ -1,12 +1,12 @@
 <?php
 
-namespace Codespace\Websockets\Statistics\Collectors;
+namespace Teamspk\Websockets\Statistics\Collectors;
 
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Contracts\StatisticsCollector;
-use Codespace\Websockets\Facades\StatisticsStore;
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Statistics\Statistic;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Contracts\StatisticsCollector;
+use Teamspk\Websockets\Facades\StatisticsStore;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Statistics\Statistic;
 use React\Promise\PromiseInterface;
 
 class MemoryCollector implements StatisticsCollector
@@ -21,7 +21,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * The Channel manager.
      *
-     * @var \Codespace\Websockets\Contracts\ChannelManager
+     * @var \Teamspk\Websockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
@@ -141,7 +141,7 @@ class MemoryCollector implements StatisticsCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\Codespace\Websockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\Teamspk\Websockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface
     {
@@ -166,7 +166,7 @@ class MemoryCollector implements StatisticsCollector
      * Find or create a defined statistic for an app.
      *
      * @param  string|int  $appId
-     * @return \Codespace\Websockets\Statistics\Statistic
+     * @return \Teamspk\Websockets\Statistics\Statistic
      */
     protected function findOrMake($appId): Statistic
     {
@@ -180,7 +180,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * Create a new record using the Statistic Store.
      *
-     * @param  \Codespace\Websockets\Statistics\Statistic  $statistic
+     * @param  \Teamspk\Websockets\Statistics\Statistic  $statistic
      * @param  mixed  $appId
      * @return void
      */

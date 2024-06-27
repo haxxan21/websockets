@@ -11,23 +11,23 @@ Depending on your setup, you might have your app configuration stored elsewhere 
 
 > Make sure that you do **not** perform any IO blocking tasks in your `AppManager`, as they will interfere with the asynchronous WebSocket execution.
 
-In order to create your custom `AppManager`, create a class that implements the `Codespace\Websockets\Contracts\AppManager` interface.
+In order to create your custom `AppManager`, create a class that implements the `Teamspk\Websockets\Contracts\AppManager` interface.
 
 This is what it looks like:
 
 ```php
 interface AppManager
 {
-    /**  @return array[Codespace\Websockets\Apps\App] */
+    /**  @return array[Teamspk\Websockets\Apps\App] */
     public function all(): array;
 
-    /**  @return Codespace\Websockets\Apps\App */
+    /**  @return Teamspk\Websockets\Apps\App */
     public function findById($appId): ?App;
 
-    /**  @return Codespace\Websockets\Apps\App */
+    /**  @return Teamspk\Websockets\Apps\App */
     public function findByKey($appKey): ?App;
 
-    /**  @return Codespace\Websockets\Apps\App */
+    /**  @return Teamspk\Websockets\Apps\App */
     public function findBySecret($appSecret): ?App;
 }
 ```
@@ -37,8 +37,8 @@ The following is an example AppManager that utilizes an Eloquent model:
 namespace App\Managers;
 
 use App\Application;
-use Codespace\Websockets\Apps\App;
-use Codespace\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Apps\App;
+use Teamspk\Websockets\Contracts\AppManager;
 
 class MyCustomAppManager implements AppManager
 {

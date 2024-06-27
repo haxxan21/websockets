@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test\Models;
+namespace Teamspk\Websockets\Test\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

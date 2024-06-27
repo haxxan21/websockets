@@ -1,11 +1,11 @@
 <?php
 
-namespace Codespace\Websockets\Test\Apps;
+namespace Teamspk\Websockets\Test\Apps;
 
-use Codespace\Websockets\Apps\App;
-use Codespace\Websockets\Apps\ConfigAppManager;
-use Codespace\Websockets\Contracts\AppManager;
-use Codespace\Websockets\Test\TestCase;
+use Teamspk\Websockets\Apps\App;
+use Teamspk\Websockets\Apps\ConfigAppManager;
+use Teamspk\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Test\TestCase;
 
 class ConfigAppManagerTest extends TestCase
 {

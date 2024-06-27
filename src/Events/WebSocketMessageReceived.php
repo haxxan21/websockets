@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Events;
+namespace Teamspk\Websockets\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

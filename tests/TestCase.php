@@ -1,15 +1,15 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Contracts\StatisticsCollector;
-use Codespace\Websockets\Contracts\StatisticsStore;
-use Codespace\Websockets\Facades\WebSocketRouter;
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Server\Loggers\HttpLogger;
-use Codespace\Websockets\Server\Loggers\WebSocketsLogger;
-use Codespace\Websockets\ServerFactory;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Contracts\StatisticsCollector;
+use Teamspk\Websockets\Contracts\StatisticsStore;
+use Teamspk\Websockets\Facades\WebSocketRouter;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Server\Loggers\HttpLogger;
+use Teamspk\Websockets\Server\Loggers\WebSocketsLogger;
+use Teamspk\Websockets\ServerFactory;
 use Clue\React\Buzz\Browser;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Redis;
@@ -44,28 +44,28 @@ abstract class TestCase extends Orchestra
     /**
      * A test Pusher server.
      *
-     * @var \Codespace\Websockets\Server\WebSocketHandler
+     * @var \Teamspk\Websockets\Server\WebSocketHandler
      */
     protected $pusherServer;
 
     /**
      * The test Channel manager.
      *
-     * @var \Codespace\Websockets\Contracts\ChannelManager
+     * @var \Teamspk\Websockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
     /**
      * The test Channel manager.
      *
-     * @var \Codespace\Websockets\Contracts\StatisticsCollector
+     * @var \Teamspk\Websockets\Contracts\StatisticsCollector
      */
     protected $statisticsCollector;
 
     /**
      * The test Channel manager.
      *
-     * @var \Codespace\Websockets\Contracts\StatisticsStore
+     * @var \Teamspk\Websockets\Contracts\StatisticsStore
      */
     protected $statisticsStore;
 
@@ -163,7 +163,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Codespace\Websockets\WebSocketsServiceProvider::class,
+            \Teamspk\Websockets\WebSocketsServiceProvider::class,
             TestServiceProvider::class,
         ];
     }
@@ -266,13 +266,13 @@ abstract class TestCase extends Orchestra
 
         $app['config']->set('websockets.replication.modes', [
             'local' => [
-                'channel_manager' => \Codespace\Websockets\ChannelManagers\LocalChannelManager::class,
-                'collector' => \Codespace\Websockets\Statistics\Collectors\MemoryCollector::class,
+                'channel_manager' => \Teamspk\Websockets\ChannelManagers\LocalChannelManager::class,
+                'collector' => \Teamspk\Websockets\Statistics\Collectors\MemoryCollector::class,
             ],
             'redis' => [
-                'channel_manager' => \Codespace\Websockets\ChannelManagers\RedisChannelManager::class,
+                'channel_manager' => \Teamspk\Websockets\ChannelManagers\RedisChannelManager::class,
                 'connection' => 'default',
-                'collector' => \Codespace\Websockets\Statistics\Collectors\RedisCollector::class,
+                'collector' => \Teamspk\Websockets\Statistics\Collectors\RedisCollector::class,
             ],
         ]);
     }
@@ -302,7 +302,7 @@ abstract class TestCase extends Orchestra
 
         $this->app['config']->set(
             'websockets.promise_resolver',
-            \Codespace\Websockets\Test\Mocks\PromiseResolver::class
+            \Teamspk\Websockets\Test\Mocks\PromiseResolver::class
         );
     }
 

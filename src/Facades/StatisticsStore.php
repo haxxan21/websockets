@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Facades;
+namespace Teamspk\Websockets\Facades;
 
-use Codespace\Websockets\Contracts\StatisticsStore as StatisticsStoreInterface;
+use Teamspk\Websockets\Contracts\StatisticsStore as StatisticsStoreInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsStore extends Facade

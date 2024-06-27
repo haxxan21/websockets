@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Controllers;
+namespace Teamspk\Websockets\Dashboard\Http\Controllers;
 
-use Codespace\Websockets\Apps\App;
-use Codespace\Websockets\Concerns\PushesToPusher;
+use Teamspk\Websockets\Apps\App;
+use Teamspk\Websockets\Concerns\PushesToPusher;
 use Illuminate\Broadcasting\Broadcasters\PusherBroadcaster;
 use Illuminate\Http\Request;
 use React\EventLoop\LoopInterface;

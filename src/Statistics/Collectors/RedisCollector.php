@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Statistics\Collectors;
+namespace Teamspk\Websockets\Statistics\Collectors;
 
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Statistics\Statistic;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Statistics\Statistic;
 use Illuminate\Cache\RedisLock;
 use Illuminate\Support\Facades\Redis;
 use React\Promise\PromiseInterface;
@@ -235,7 +235,7 @@ class RedisCollector extends MemoryCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\Codespace\Websockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\Teamspk\Websockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface
     {
@@ -361,7 +361,7 @@ class RedisCollector extends MemoryCollector
      *
      * @param  string|int  $appId
      * @param  array  $stats
-     * @return \Codespace\Websockets\Statistics\Statistic
+     * @return \Teamspk\Websockets\Statistics\Statistic
      */
     protected function arrayToStatisticInstance($appId, array $stats)
     {

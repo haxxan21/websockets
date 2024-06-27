@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Contracts;
+namespace Teamspk\Websockets\Contracts;
 
 interface PusherMessage
 {

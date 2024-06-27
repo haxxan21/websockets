@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\API\FetchUsers;
+use Teamspk\Websockets\API\FetchUsers;
 use GuzzleHttp\Psr7\Request;
 use Pusher\Pusher;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Server;
+namespace Teamspk\Websockets\Server;
 
-use Codespace\Websockets\Server\Loggers\WebSocketsLogger;
+use Teamspk\Websockets\Server\Loggers\WebSocketsLogger;
 use Illuminate\Support\Collection;
 use Ratchet\WebSocket\MessageComponentInterface;
 use Ratchet\WebSocket\WsServer;

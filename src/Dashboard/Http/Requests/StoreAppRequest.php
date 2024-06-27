@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Requests;
+namespace Teamspk\Websockets\Dashboard\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

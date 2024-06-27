@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\API\FetchChannels;
+use Teamspk\Websockets\API\FetchChannels;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\JsonResponse;
 use Pusher\Pusher;

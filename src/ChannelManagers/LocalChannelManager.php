@@ -1,13 +1,13 @@
 <?php
 
-namespace Codespace\Websockets\ChannelManagers;
+namespace Teamspk\Websockets\ChannelManagers;
 
-use Codespace\Websockets\Cache\ArrayLock;
-use Codespace\Websockets\Channels\Channel;
-use Codespace\Websockets\Channels\PresenceChannel;
-use Codespace\Websockets\Channels\PrivateChannel;
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Helpers;
+use Teamspk\Websockets\Cache\ArrayLock;
+use Teamspk\Websockets\Channels\Channel;
+use Teamspk\Websockets\Channels\PresenceChannel;
+use Teamspk\Websockets\Channels\PrivateChannel;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Helpers;
 use Carbon\Carbon;
 use Illuminate\Cache\ArrayStore;
 use Illuminate\Support\Str;
@@ -88,7 +88,7 @@ class LocalChannelManager implements ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return null|Codespace\Websockets\Channels\Channel
+     * @return null|Teamspk\Websockets\Channels\Channel
      */
     public function find($appId, string $channel)
     {
@@ -100,7 +100,7 @@ class LocalChannelManager implements ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return Codespace\Websockets\Channels\Channel
+     * @return Teamspk\Websockets\Channels\Channel
      */
     public function findOrCreate($appId, string $channel)
     {

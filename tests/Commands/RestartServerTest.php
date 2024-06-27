@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test\Commands;
+namespace Teamspk\Websockets\Test\Commands;
 
-use Codespace\Websockets\Test\TestCase;
+use Teamspk\Websockets\Test\TestCase;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\InteractsWithTime;
 

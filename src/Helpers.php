@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets;
+namespace Teamspk\Websockets;
 
 use React\Promise\PromiseInterface;
 

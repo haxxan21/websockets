@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Concerns;
+namespace Teamspk\Websockets\Concerns;
 
 use Illuminate\Broadcasting\Broadcasters\PusherBroadcaster;
 use Pusher\Pusher;

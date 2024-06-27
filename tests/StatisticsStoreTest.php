@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
 class StatisticsStoreTest extends TestCase
 {

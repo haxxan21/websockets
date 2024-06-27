@@ -1,12 +1,12 @@
 <?php
 
-namespace Codespace\Websockets\ChannelManagers;
+namespace Teamspk\Websockets\ChannelManagers;
 
-use Codespace\Websockets\Cache\RedisLock;
-use Codespace\Websockets\Channels\Channel;
-use Codespace\Websockets\DashboardLogger;
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Server\MockableConnection;
+use Teamspk\Websockets\Cache\RedisLock;
+use Teamspk\Websockets\Channels\Channel;
+use Teamspk\Websockets\DashboardLogger;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Server\MockableConnection;
 use Carbon\Carbon;
 use Clue\React\Redis\Client;
 use Clue\React\Redis\Factory;

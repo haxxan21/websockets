@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Contracts;
+namespace Teamspk\Websockets\Contracts;
 
 use React\Promise\PromiseInterface;
 
@@ -63,7 +63,7 @@ interface StatisticsCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\Codespace\Websockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\Teamspk\Websockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface;
 

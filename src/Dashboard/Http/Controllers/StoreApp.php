@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Controllers;
+namespace Teamspk\Websockets\Dashboard\Http\Controllers;
 
-use Codespace\Websockets\Contracts\AppManager;
-use Codespace\Websockets\Dashboard\Http\Requests\StoreAppRequest;
+use Teamspk\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Dashboard\Http\Requests\StoreAppRequest;
 use Illuminate\Support\Str;
 use React\EventLoop\LoopInterface;
 
@@ -15,7 +15,7 @@ class StoreApp
      * Show the configured apps.
      *
      * @param  StoreAppRequest  $request
-     * @param  \Codespace\Websockets\Contracts\AppManager  $apps
+     * @param  \Teamspk\Websockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(StoreAppRequest $request, AppManager $apps)

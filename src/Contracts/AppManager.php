@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Contracts;
+namespace Teamspk\Websockets\Contracts;
 
-use Codespace\Websockets\Apps\App;
+use Teamspk\Websockets\Apps\App;
 use React\Promise\PromiseInterface;
 
 interface AppManager

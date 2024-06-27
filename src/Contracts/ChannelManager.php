@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Contracts;
+namespace Teamspk\Websockets\Contracts;
 
 use Ratchet\ConnectionInterface;
 use React\EventLoop\LoopInterface;
@@ -23,7 +23,7 @@ interface ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return null|Codespace\Websockets\Channels\Channel
+     * @return null|Teamspk\Websockets\Channels\Channel
      */
     public function find($appId, string $channel);
 
@@ -32,7 +32,7 @@ interface ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return Codespace\Websockets\Channels\Channel
+     * @return Teamspk\Websockets\Channels\Channel
      */
     public function findOrCreate($appId, string $channel);
 

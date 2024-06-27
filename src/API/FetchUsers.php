@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\API;
+namespace Teamspk\Websockets\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;

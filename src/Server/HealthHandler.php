@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Server;
+namespace Teamspk\Websockets\Server;
 
 use Exception;
 use GuzzleHttp\Psr7\Message;

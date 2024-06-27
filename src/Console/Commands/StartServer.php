@@ -1,14 +1,14 @@
 <?php
 
-namespace Codespace\Websockets\Console\Commands;
+namespace Teamspk\Websockets\Console\Commands;
 
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
-use Codespace\Websockets\Facades\WebSocketRouter;
-use Codespace\Websockets\Server\Loggers\ConnectionLogger;
-use Codespace\Websockets\Server\Loggers\HttpLogger;
-use Codespace\Websockets\Server\Loggers\WebSocketsLogger;
-use Codespace\Websockets\ServerFactory;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
+use Teamspk\Websockets\Facades\WebSocketRouter;
+use Teamspk\Websockets\Server\Loggers\ConnectionLogger;
+use Teamspk\Websockets\Server\Loggers\HttpLogger;
+use Teamspk\Websockets\Server\Loggers\WebSocketsLogger;
+use Teamspk\Websockets\ServerFactory;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 use React\EventLoop\Factory as LoopFactory;

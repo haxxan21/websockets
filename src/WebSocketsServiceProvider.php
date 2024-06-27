@@ -1,18 +1,18 @@
 <?php
 
-namespace Codespace\Websockets;
+namespace Teamspk\Websockets;
 
-use Codespace\Websockets\Contracts\StatisticsCollector;
-use Codespace\Websockets\Contracts\StatisticsStore;
-use Codespace\Websockets\Dashboard\Http\Controllers\AuthenticateDashboard;
-use Codespace\Websockets\Dashboard\Http\Controllers\SendMessage;
-use Codespace\Websockets\Dashboard\Http\Controllers\ShowApps;
-use Codespace\Websockets\Dashboard\Http\Controllers\ShowDashboard;
-use Codespace\Websockets\Dashboard\Http\Controllers\ShowStatistics;
-use Codespace\Websockets\Dashboard\Http\Controllers\StoreApp;
-use Codespace\Websockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
-use Codespace\Websockets\Queue\AsyncRedisConnector;
-use Codespace\Websockets\Server\Router;
+use Teamspk\Websockets\Contracts\StatisticsCollector;
+use Teamspk\Websockets\Contracts\StatisticsStore;
+use Teamspk\Websockets\Dashboard\Http\Controllers\AuthenticateDashboard;
+use Teamspk\Websockets\Dashboard\Http\Controllers\SendMessage;
+use Teamspk\Websockets\Dashboard\Http\Controllers\ShowApps;
+use Teamspk\Websockets\Dashboard\Http\Controllers\ShowDashboard;
+use Teamspk\Websockets\Dashboard\Http\Controllers\ShowStatistics;
+use Teamspk\Websockets\Dashboard\Http\Controllers\StoreApp;
+use Teamspk\Websockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
+use Teamspk\Websockets\Queue\AsyncRedisConnector;
+use Teamspk\Websockets\Server\Router;
 use Clue\React\SQLite\DatabaseInterface;
 use Clue\React\SQLite\Factory as SQLiteFactory;
 use Illuminate\Support\Facades\Gate;

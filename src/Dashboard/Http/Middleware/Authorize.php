@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Middleware;
+namespace Teamspk\Websockets\Dashboard\Http\Middleware;
 
 use Illuminate\Support\Facades\Gate;
 

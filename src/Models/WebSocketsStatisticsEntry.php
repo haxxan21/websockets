@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Models;
+namespace Teamspk\Websockets\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

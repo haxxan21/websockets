@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\Server\HealthHandler;
+use Teamspk\Websockets\Server\HealthHandler;
 use Illuminate\Support\Str;
 
 class HealthTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\API;
+namespace Teamspk\Websockets\API;
 
-use Codespace\Websockets\Channels\Channel;
+use Teamspk\Websockets\Channels\Channel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use stdClass;

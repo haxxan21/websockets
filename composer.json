@@ -1,5 +1,5 @@
 {
-    "name": "codespace/websockets",
+    "name": "teamspk/websockets",
     "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
     "type": "project",
     "license": "MIT",
@@ -13,12 +13,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Codespace\\Websockets\\": "src/"
+            "Teamspk\\Websockets\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Codespace\\Websockets\\Test\\": "tests"
+            "Teamspk\\Websockets\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codespace\\Websockets\\WebSocketsServiceProvider"
+                "Teamspk\\Websockets\\WebSocketsServiceProvider"
             ],
             "aliases": {
-                "WebSocketRouter": "Codespace\\Websockets\\Facades\\WebSocketRouter"
+                "WebSocketRouter": "Teamspk\\Websockets\\Facades\\WebSocketRouter"
             }
         }
     },

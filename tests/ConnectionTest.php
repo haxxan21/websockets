@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\Server\Exceptions\UnknownAppKey;
+use Teamspk\Websockets\Server\Exceptions\UnknownAppKey;
 
 class ConnectionTest extends TestCase
 {

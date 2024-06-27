@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Channels;
+namespace Teamspk\Websockets\Channels;
 
-use Codespace\Websockets\Server\Exceptions\InvalidSignature;
+use Teamspk\Websockets\Server\Exceptions\InvalidSignature;
 use Ratchet\ConnectionInterface;
 use stdClass;
 

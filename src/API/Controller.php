@@ -1,10 +1,10 @@
 <?php
 
-namespace Codespace\Websockets\API;
+namespace Teamspk\Websockets\API;
 
-use Codespace\Websockets\Apps\App;
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Server\QueryParameters;
+use Teamspk\Websockets\Apps\App;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Server\QueryParameters;
 use Exception;
 use GuzzleHttp\Psr7\Message;
 use GuzzleHttp\Psr7\Response;
@@ -49,7 +49,7 @@ abstract class Controller implements HttpServerInterface
     /**
      * The channel manager.
      *
-     * @var \Codespace\Websockets\Contracts\ChannelManager
+     * @var \Teamspk\Websockets\Contracts\ChannelManager
      */
     protected $channelManager;
 

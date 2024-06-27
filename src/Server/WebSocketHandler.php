@@ -1,16 +1,16 @@
 <?php
 
-namespace Codespace\Websockets\Server;
+namespace Teamspk\Websockets\Server;
 
-use Codespace\Websockets\Apps\App;
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\DashboardLogger;
-use Codespace\Websockets\Events\ConnectionClosed;
-use Codespace\Websockets\Events\NewConnection;
-use Codespace\Websockets\Events\WebSocketMessageReceived;
-use Codespace\Websockets\Facades\StatisticsCollector;
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Server\Exceptions\WebSocketException;
+use Teamspk\Websockets\Apps\App;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\DashboardLogger;
+use Teamspk\Websockets\Events\ConnectionClosed;
+use Teamspk\Websockets\Events\NewConnection;
+use Teamspk\Websockets\Events\WebSocketMessageReceived;
+use Teamspk\Websockets\Facades\StatisticsCollector;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Server\Exceptions\WebSocketException;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
@@ -30,7 +30,7 @@ class WebSocketHandler implements MessageComponentInterface
     /**
      * Initialize a new handler.
      *
-     * @param  \Codespace\Websockets\Contracts\ChannelManager  $channelManager
+     * @param  \Teamspk\Websockets\Contracts\ChannelManager  $channelManager
      * @return void
      */
     public function __construct(ChannelManager $channelManager)

@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets;
+namespace Teamspk\Websockets;
 
-use Codespace\Websockets\Server\HttpServer;
-use Codespace\Websockets\Server\Loggers\HttpLogger;
+use Teamspk\Websockets\Server\HttpServer;
+use Teamspk\Websockets\Server\Loggers\HttpLogger;
 use Ratchet\Http\Router;
 use Ratchet\Server\IoServer;
 use React\EventLoop\Factory as LoopFactory;

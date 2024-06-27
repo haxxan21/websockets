@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Cache;
+namespace Teamspk\Websockets\Cache;
 
 use Illuminate\Support\Str;
 use React\Promise\PromiseInterface;

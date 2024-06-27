@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Dashboard\Http\Controllers;
+namespace Teamspk\Websockets\Dashboard\Http\Controllers;
 
-use Codespace\Websockets\Facades\StatisticsStore;
+use Teamspk\Websockets\Facades\StatisticsStore;
 use Illuminate\Http\Request;
 
 class ShowStatistics

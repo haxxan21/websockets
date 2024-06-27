@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Server\Messages;
+namespace Teamspk\Websockets\Server\Messages;
 
-use Codespace\Websockets\Events\ConnectionPonged;
+use Teamspk\Websockets\Events\ConnectionPonged;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

@@ -15,7 +15,7 @@ For example, running your own business logic on connection open and close:
 ```php
 namespace App\Controllers\WebSockets;
 
-use Codespace\Websockets\WebSockets\WebSocketHandler as BaseWebSocketHandler;
+use Teamspk\Websockets\WebSockets\WebSocketHandler as BaseWebSocketHandler;
 use Ratchet\ConnectionInterface;
 
 class WebSocketHandler extends BaseWebSocketHandler

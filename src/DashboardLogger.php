@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets;
+namespace Teamspk\Websockets;
 
-use Codespace\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Contracts\ChannelManager;
 
 class DashboardLogger
 {

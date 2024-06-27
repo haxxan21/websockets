@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Statistics\Stores;
+namespace Teamspk\Websockets\Statistics\Stores;
 
-use Codespace\Websockets\Contracts\StatisticsStore;
+use Teamspk\Websockets\Contracts\StatisticsStore;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -14,7 +14,7 @@ class DatabaseStore implements StatisticsStore
      *
      * @var string
      */
-    public static $model = \Codespace\Websockets\Models\WebSocketsStatisticsEntry::class;
+    public static $model = \Teamspk\Websockets\Models\WebSocketsStatisticsEntry::class;
 
     /**
      * Store a new record in the database and return

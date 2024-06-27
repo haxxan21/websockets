@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test;
+namespace Teamspk\Websockets\Test;
 
-use Codespace\Websockets\Queue\AsyncRedisConnector;
+use Teamspk\Websockets\Queue\AsyncRedisConnector;
 use Illuminate\Queue\Queue;
 use Illuminate\Support\InteractsWithTime;
 use Mockery as m;

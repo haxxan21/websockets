@@ -1,12 +1,12 @@
 <?php
 
-namespace Codespace\Websockets\Channels;
+namespace Teamspk\Websockets\Channels;
 
-use Codespace\Websockets\DashboardLogger;
-use Codespace\Websockets\Events\SubscribedToChannel;
-use Codespace\Websockets\Events\UnsubscribedFromChannel;
-use Codespace\Websockets\Helpers;
-use Codespace\Websockets\Server\Exceptions\InvalidSignature;
+use Teamspk\Websockets\DashboardLogger;
+use Teamspk\Websockets\Events\SubscribedToChannel;
+use Teamspk\Websockets\Events\UnsubscribedFromChannel;
+use Teamspk\Websockets\Helpers;
+use Teamspk\Websockets\Server\Exceptions\InvalidSignature;
 use Ratchet\ConnectionInterface;
 use React\Promise\PromiseInterface;
 use stdClass;

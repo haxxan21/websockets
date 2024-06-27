@@ -45,6 +45,8 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         'T' => 
         array (
             'Termwind\\' => 9,
+            'Teamspk\\Websockets\\Test\\' => 24,
+            'Teamspk\\Websockets\\' => 19,
         ),
         'S' => 
         array (
@@ -145,8 +147,6 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         ),
         'C' => 
         array (
-            'Codespace\\Websockets\\Test\\' => 26,
-            'Codespace\\Websockets\\' => 21,
             'Clue\\React\\SQLite\\' => 18,
             'Clue\\React\\Redis\\' => 17,
             'Clue\\React\\NDJson\\' => 18,
@@ -167,6 +167,14 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
+        ),
+        'Teamspk\\Websockets\\Test\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Teamspk\\Websockets\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
@@ -451,14 +459,6 @@ class ComposerStaticInit85f1ed64c7a5ce90a369d43634c83d37
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Codespace\\Websockets\\Test\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
-        'Codespace\\Websockets\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Clue\\React\\SQLite\\' => 
         array (

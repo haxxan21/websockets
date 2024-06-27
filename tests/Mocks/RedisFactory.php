@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Test\Mocks;
+namespace Teamspk\Websockets\Test\Mocks;
 
 use Clue\React\Redis\Factory;
 use Clue\Redis\Protocol\Factory as ProtocolFactory;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Apps;
+namespace Teamspk\Websockets\Apps;
 
-use Codespace\Websockets\Contracts\AppManager;
+use Teamspk\Websockets\Contracts\AppManager;
 use React\MySQL\ConnectionInterface;
 use React\MySQL\QueryResult;
 use React\Promise\Deferred;
@@ -115,7 +115,7 @@ class MysqlAppManager implements AppManager
      * Map the app into an App instance.
      *
      * @param  array|null  $app
-     * @return \Codespace\Websockets\Apps\App|null
+     * @return \Teamspk\Websockets\Apps\App|null
      */
     protected function convertIntoApp(?array $appAttributes): ?App
     {

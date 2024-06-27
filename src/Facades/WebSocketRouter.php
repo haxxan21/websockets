@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Facades;
+namespace Teamspk\Websockets\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

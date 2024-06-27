@@ -1,10 +1,10 @@
 <?php
 
-namespace Codespace\Websockets\Server\Messages;
+namespace Teamspk\Websockets\Server\Messages;
 
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Contracts\PusherMessage;
-use Codespace\Websockets\DashboardLogger;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Contracts\PusherMessage;
+use Teamspk\Websockets\DashboardLogger;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

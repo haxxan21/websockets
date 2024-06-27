@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Statistics;
+namespace Teamspk\Websockets\Statistics;
 
-use Codespace\Websockets\Apps\App;
+use Teamspk\Websockets\Apps\App;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
 
@@ -58,7 +58,7 @@ class Statistic
      * Create a new statistic instance.
      *
      * @param  string|int  $appId
-     * @return \Codespace\Websockets\Statistics\Statistic
+     * @return \Teamspk\Websockets\Statistics\Statistic
      */
     public static function new($appId)
     {

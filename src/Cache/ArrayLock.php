@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Cache;
+namespace Teamspk\Websockets\Cache;
 
-use Codespace\Websockets\Helpers;
+use Teamspk\Websockets\Helpers;
 use Illuminate\Cache\ArrayLock as LaravelLock;
 use React\Promise\PromiseInterface;
 

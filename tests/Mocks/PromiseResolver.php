@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Test\Mocks;
+namespace Teamspk\Websockets\Test\Mocks;
 
-use Codespace\Websockets\Helpers;
+use Teamspk\Websockets\Helpers;
 use Clue\React\Block;
 use React\EventLoop\LoopInterface;
 use React\Promise\FulfilledPromise;

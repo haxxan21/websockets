@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Facades;
+namespace Teamspk\Websockets\Facades;
 
-use Codespace\Websockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
+use Teamspk\Websockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsCollector extends Facade

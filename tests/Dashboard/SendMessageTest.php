@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Test\Dashboard;
+namespace Teamspk\Websockets\Test\Dashboard;
 
-use Codespace\Websockets\Test\Models\User;
-use Codespace\Websockets\Test\TestCase;
+use Teamspk\Websockets\Test\Models\User;
+use Teamspk\Websockets\Test\TestCase;
 
 class SendMessageTest extends TestCase
 {

@@ -21,7 +21,7 @@ return [
 
         'middleware' => [
             'web',
-            \Codespace\Websockets\Dashboard\Http\Middleware\Authorize::class,
+            \Teamspk\Websockets\Dashboard\Http\Middleware\Authorize::class,
         ],
 
     ],
@@ -42,7 +42,7 @@ return [
         |
         */
 
-        'app' => \Codespace\Websockets\Apps\ConfigAppManager::class,
+        'app' => \Teamspk\Websockets\Apps\ConfigAppManager::class,
 
         /*
         |--------------------------------------------------------------------------
@@ -147,7 +147,7 @@ return [
                 |
                 */
 
-                'channel_manager' => \Codespace\Websockets\ChannelManagers\LocalChannelManager::class,
+                'channel_manager' => \Teamspk\Websockets\ChannelManagers\LocalChannelManager::class,
 
                 /*
                 |--------------------------------------------------------------------------
@@ -160,7 +160,7 @@ return [
                 |
                 */
 
-                'collector' => \Codespace\Websockets\Statistics\Collectors\MemoryCollector::class,
+                'collector' => \Teamspk\Websockets\Statistics\Collectors\MemoryCollector::class,
 
             ],
 
@@ -178,7 +178,7 @@ return [
                 |
                 */
 
-                'channel_manager' => \Codespace\Websockets\ChannelManagers\RedisChannelManager::class,
+                'channel_manager' => \Teamspk\Websockets\ChannelManagers\RedisChannelManager::class,
 
                 /*
                 |--------------------------------------------------------------------------
@@ -191,7 +191,7 @@ return [
                 |
                 */
 
-                'collector' => \Codespace\Websockets\Statistics\Collectors\RedisCollector::class,
+                'collector' => \Teamspk\Websockets\Statistics\Collectors\RedisCollector::class,
 
             ],
 
@@ -212,7 +212,7 @@ return [
         |
         */
 
-        'store' => \Codespace\Websockets\Statistics\Stores\DatabaseStore::class,
+        'store' => \Teamspk\Websockets\Statistics\Stores\DatabaseStore::class,
 
         /*
         |--------------------------------------------------------------------------
@@ -294,17 +294,17 @@ return [
 
     'handlers' => [
 
-        'websocket' => \Codespace\Websockets\Server\WebSocketHandler::class,
+        'websocket' => \Teamspk\Websockets\Server\WebSocketHandler::class,
 
-        'health' => \Codespace\Websockets\Server\HealthHandler::class,
+        'health' => \Teamspk\Websockets\Server\HealthHandler::class,
 
-        'trigger_event' => \Codespace\Websockets\API\TriggerEvent::class,
+        'trigger_event' => \Teamspk\Websockets\API\TriggerEvent::class,
 
-        'fetch_channels' => \Codespace\Websockets\API\FetchChannels::class,
+        'fetch_channels' => \Teamspk\Websockets\API\FetchChannels::class,
 
-        'fetch_channel' => \Codespace\Websockets\API\FetchChannel::class,
+        'fetch_channel' => \Teamspk\Websockets\API\FetchChannel::class,
 
-        'fetch_users' => \Codespace\Websockets\API\FetchUsers::class,
+        'fetch_users' => \Teamspk\Websockets\API\FetchUsers::class,
 
     ],
 

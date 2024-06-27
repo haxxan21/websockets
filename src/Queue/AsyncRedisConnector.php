@@ -1,6 +1,6 @@
 <?php
 
-namespace Codespace\Websockets\Queue;
+namespace Teamspk\Websockets\Queue;
 
 use Illuminate\Queue\Connectors\RedisConnector;
 

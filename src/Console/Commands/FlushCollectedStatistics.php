@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Console\Commands;
+namespace Teamspk\Websockets\Console\Commands;
 
-use Codespace\Websockets\Facades\StatisticsCollector;
+use Teamspk\Websockets\Facades\StatisticsCollector;
 use Illuminate\Console\Command;
 
 class FlushCollectedStatistics extends Command

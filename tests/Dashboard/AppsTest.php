@@ -1,10 +1,10 @@
 <?php
 
-namespace Codespace\Websockets\Test\Dashboard;
+namespace Teamspk\Websockets\Test\Dashboard;
 
-use Codespace\Websockets\Apps\SQLiteAppManager;
-use Codespace\Websockets\Test\Models\User;
-use Codespace\Websockets\Test\TestCase;
+use Teamspk\Websockets\Apps\SQLiteAppManager;
+use Teamspk\Websockets\Test\Models\User;
+use Teamspk\Websockets\Test\TestCase;
 
 class AppsTest extends TestCase
 {

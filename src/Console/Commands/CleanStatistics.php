@@ -1,8 +1,8 @@
 <?php
 
-namespace Codespace\Websockets\Console\Commands;
+namespace Teamspk\Websockets\Console\Commands;
 
-use Codespace\Websockets\Facades\StatisticsStore;
+use Teamspk\Websockets\Facades\StatisticsStore;
 use Illuminate\Console\Command;
 
 class CleanStatistics extends Command

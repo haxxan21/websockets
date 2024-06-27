@@ -1,9 +1,9 @@
 <?php
 
-namespace Codespace\Websockets\Server\Messages;
+namespace Teamspk\Websockets\Server\Messages;
 
-use Codespace\Websockets\Contracts\ChannelManager;
-use Codespace\Websockets\Contracts\PusherMessage;
+use Teamspk\Websockets\Contracts\ChannelManager;
+use Teamspk\Websockets\Contracts\PusherMessage;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
@@ -15,7 +15,7 @@ class PusherMessageFactory
      *
      * @param  \Ratchet\RFC6455\Messaging\MessageInterface  $message
      * @param  \Ratchet\ConnectionInterface  $connection
-     * @param  \Codespace\Websockets\Contracts\ChannelManager  $channelManager
+     * @param  \Teamspk\Websockets\Contracts\ChannelManager  $channelManager
      * @return PusherMessage
      */
     public static function createForMessage(
